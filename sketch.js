@@ -19,6 +19,7 @@ var score;
 var bg= "bg.png";
 
 function preload() {
+  backgroundImg = loadImage(bg);
   changeTime();
   hexImg = loadImage("hexagon (1).png");
 
